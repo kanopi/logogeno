@@ -58,6 +58,7 @@ and install it manually before running the script.
 ```bash
 python logogeno.py --platform Saplings --repo-name "Content types"
 python logogeno.py --platform Arbor --repo-name "Theme"
+python logogeno.py --platform "Drupal AI" --repo-name "AI SEO Optimizer"
 ```
 
 This generates:
