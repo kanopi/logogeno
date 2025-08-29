@@ -77,6 +77,16 @@ python logogeno.py --platform Arbor
 
 This omits the repository name.
 
+### Excluding platform name
+
+Use the `--no-platform-name` flag to generate logos without the platform name:
+
+```bash
+python logogeno.py --platform Saplings --repo-name "My Project" --no-platform-name
+```
+
+This generates a logo showing only "My Project" without "Saplings" below the icon.
+
 ---
 
 ## ➕ Adding New Platforms
